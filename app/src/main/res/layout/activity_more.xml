@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/bkash"
+        android:gravity="center"
+        android:weightSum="30"
+        >
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:src="@drawable/back_button"
+            android:layout_weight="10"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/bkashlogo1"
+            android:layout_weight="10"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </LinearLayout>
+    <!-- =================================================== -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/third_navbar"
+            android:layout_below="@id/second_navbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:elevation="6dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Bkash Services"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/second_navbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="185dp"
+                        android:background="@color/white"
+                        android:layout_below="@id/nav_bar"
+                        android:orientation="vertical"
+                        android:elevation="6dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="40"
+                            android:layout_marginTop="10dp"
+                            >
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/send_money"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Send Money"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/mobile_recherge"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Mobile\nRecharge"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/cash_out"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cash Out"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/make_money"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Make Payment"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="30"
+                            android:layout_marginTop="30dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_marginRight="40dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/id1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    >
+                                    <ImageView
+                                        android:layout_width="45dp"
+                                        android:layout_height="45dp"
+                                        android:src="@drawable/add_money"
+                                        />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Add Money"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/black"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_toRightOf="@id/id1"
+                                    android:id="@+id/id2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    >
+                                    <ImageView
+
+                                        android:layout_width="45dp"
+                                        android:layout_height="45dp"
+                                        android:src="@drawable/pay_bill"
+                                        />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Pay Bill"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/black"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginLeft="40dp"
+                                    android:layout_toRightOf="@id/id2"
+                                    android:id="@+id/id3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    >
+                                    <ImageView
+
+                                        android:layout_width="45dp"
+                                        android:layout_height="45dp"
+                                        android:src="@drawable/transfer_money"
+                                        />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tickets"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/black"
+                                        />
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
